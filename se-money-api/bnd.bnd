@@ -1,0 +1,10 @@
+Bundle-Name: se-money-api
+Bundle-SymbolicName: ru.seriossem.se.money.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	ru.seriossem.se.money.exception,\
+	ru.seriossem.se.money.model,\
+	ru.seriossem.se.money.service,\
+	ru.seriossem.se.money.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../se-money-service/service.xml
