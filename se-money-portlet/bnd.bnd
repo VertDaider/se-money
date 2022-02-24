@@ -1,4 +1,4 @@
-Bundle-Name: se-money
+Bundle-Name: se-money-portlet
 Bundle-SymbolicName: ru.serioussem.se.money
 Bundle-Version: 1.0.0
 Export-Package: ru.serioussem.se.money.constants
