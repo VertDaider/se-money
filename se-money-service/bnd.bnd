@@ -1,5 +1,5 @@
 Bundle-Name: se-money-service
-Bundle-SymbolicName: ru.seriossem.se.money.service
+Bundle-SymbolicName: ru.serioussem.se.money.service
 Bundle-Version: 1.0.0
 Liferay-Require-SchemaVersion: 1.0.0
 Liferay-Service: true

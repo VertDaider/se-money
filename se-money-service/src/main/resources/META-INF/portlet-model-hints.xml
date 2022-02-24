@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="ru.serioussem.se.money.model.Account">
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+		<field name="Balance" type="double" />
+		<field name="Total" type="boolean" />
+	</model>
+	<model name="ru.serioussem.se.money.model.Category">
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+		<field name="Type" type="int" />
+	</model>
+	<model name="ru.serioussem.se.money.model.Operation">
+		<field name="Id" type="long" />
+		<field name="Date" type="Date" />
+		<field name="CategoryId" type="long" />
+		<field name="Sum" type="double" />
+		<field name="Comment" type="String" />
+	</model>
+	<model name="ru.serioussem.se.money.model.SubCategory">
+		<field name="Id" type="long" />
+		<field name="Name" type="String" />
+		<field name="ParentCategoryId" type="long" />
+	</model>
+</model-hints>

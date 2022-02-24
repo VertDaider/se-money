@@ -9,7 +9,7 @@
 	<artifactId>se-money-api</artifactId>
 	<version>1.0.0</version>
 	<parent>
-		<groupId>ru.seriossem.se.money</groupId>
+		<groupId>ru.serioussem.se.money</groupId>
 		<artifactId>se-money</artifactId>
 		<version>1.0.0</version>
 	</parent>

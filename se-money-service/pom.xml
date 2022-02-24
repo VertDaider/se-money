@@ -9,7 +9,7 @@
 	<artifactId>se-money-service</artifactId>
 	<version>1.0.0</version>
 	<parent>
-		<groupId>ru.seriossem.se.money</groupId>
+		<groupId>ru.serioussem.se.money</groupId>
 		<artifactId>se-money</artifactId>
 		<version>1.0.0</version>
 	</parent>
@@ -20,7 +20,7 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>ru.seriossem.se.money</groupId>
+			<groupId>ru.serioussem.se.money</groupId>
 			<artifactId>se-money-api</artifactId>
 			<version>1.0.0</version>
 		</dependency>
@@ -40,7 +40,7 @@
 					<mergeModelHintsConfigs>src/main/resources/META-INF/portlet-model-hints.xml</mergeModelHintsConfigs>
 					<modelHintsFileName>src/main/resources/META-INF/portlet-model-hints.xml</modelHintsFileName>
 					<osgiModule>true</osgiModule>
-					<propsUtil>ru.seriossem.se.money.service.util.ServiceProps</propsUtil>
+					<propsUtil>ru.serioussem.se.money.service.util.ServiceProps</propsUtil>
 					<resourcesDirName>src/main/resources</resourcesDirName>
 					<sqlDirName>src/main/resources/META-INF/sql</sqlDirName>
 					<sqlFileName>tables.sql</sqlFileName>
